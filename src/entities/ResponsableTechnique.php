@@ -18,4 +18,9 @@ class ResponsableTechnique extends Personne{
   public function setDomaine($domaine){
     $this->domaine = $domaine;
   }
+  //metiers
+  public function printF(){
+    echo 'Nom: ' .$this->nom. ' Prenom: ' .$this->prenom. 
+    ' Email: ' .$this->domaine;
+  }
 }

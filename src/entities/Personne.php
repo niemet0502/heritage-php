@@ -27,4 +27,9 @@
     {
       return $this->prenom;
     }
+
+    public function printF(){
+      echo 'Nom: ' .$this->nom. ' Prenom: ' .$this->prenom;
+    }
+    
   }

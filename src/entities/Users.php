@@ -34,4 +34,10 @@ class Users extends Personne{
   public function getPassword(){
     return $this->password;
   }
+
+  //metiers
+  public function printF(){
+    echo 'Nom: ' .$this->nom. ' Prenom: ' .$this->prenom. 
+    ' Email: ' .$this->email;
+  }
 }
